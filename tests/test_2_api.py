@@ -40,7 +40,7 @@ def test_single_user():
     }
     assert example == res_body
 
-
+# не проходит, выдает ошибку assert 200 == <HTTPStatus.CREATED: 201>
 def test_create():
     name = 'Albina'
     job = 'Tester'
